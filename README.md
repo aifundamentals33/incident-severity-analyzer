@@ -8,12 +8,24 @@ Engineering teams waste critical time triaging incidents. When an alert fires, r
 
 A lightweight CLI tool that analyzes incident descriptions using weighted keyword scoring to instantly classify severity: **CRITICAL**, **HIGH**, **MEDIUM**, or **LOW**.
 
+## ITIL 4 Value Statement
+
+**Value Co-Creation**: Reduces MTTR (Mean Time To Resolution) by enabling instant, consistent triage—freeing engineers to focus on fixing issues, not classifying them.
+
+**Focus on Outcomes**: Eliminates subjective severity decisions. Same incident = same score, every time.
+
+**Service Level Thinking**: Faster triage = faster resolution = better SLA compliance for incident response.
+
+**Continual Improvement**: Open-source, extensible keyword engine—teams can tune weights based on their incident history.
+
 ## Business Impact
 
-- **Faster triage**: Classify incidents in seconds, not minutes
-- **Consistent scoring**: Same description always yields same severity
-- **Zero learning curve**: Anyone can use it—no training required
-- **No dependencies**: Runs anywhere with just Python
+| Metric | Improvement |
+|--------|-------------|
+| Triage Time | Seconds vs. minutes |
+| Consistency | 100% reproducible scoring |
+| Dependencies | Zero—runs anywhere with Python |
+| Learning Curve | None—just run and read |
 
 ## Tech Stack
 
@@ -46,4 +58,4 @@ python incident_analyzer.py "Minor UI typo in footer"
 
 ---
 
-*Built with AI assistance.*
+*Built with AI assistance. ITIL 4-aligned.*
